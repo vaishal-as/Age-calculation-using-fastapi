@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+form{
+    position: relative;top: 7vh;right: 30vh;
+    background: white;
+    border-radius: 3vh;
+    height: 65vh;
+    width: 50vh;
+    box-shadow:5px 20px 50px rgba(0,0,0,0.37);
+}
+form::before{
+    content: '';
+    position: absolute;
+    background: rgba(255,255,255,.3);
+    inset: 0;
+    border-radius: 2vh;
+    transform: rotate(-10deg);
+    z-index: -1;
+}
+.out {
+    position: relative;left: 64vh;top: 0vh;
+    background: white;
+    height: 68vh;
+    width: 60vh;
+    border-radius: 3vh;
+    box-shadow:5px 20px 50px rgba(0,0,0,0.37);
+}
+.input_box1 h2{
+    position: relative;left: 11vh; top: 8vh;
+    width: 20vh;
+    background: lightgray;
+    box-shadow:5px 2px 5px rgba(0,0,0,0.37);
+    border-radius: 7px;
+    padding-left: 5vh;
+}
+.input_box1 .i1{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.2s ease;
+    background:rgba(255,255,255,.3) ;
+    height: 6vh;
+    width: 70%;
+    border-color: #7d2ae8;
+    position: relative;top:20vh;left: 8vh;
+}
+.input_box1 .i2{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.2s ease;
+    background:rgba(255,255,255,.3) ;
+    height: 6vh;
+    width: 70%;
+    border-color: #7d2ae8;
+    position: relative;top:16vh;left: 8vh;
+}
+.out::before{
+    content: '';
+    position: absolute;
+    background: rgba(255,255,255,.3);
+    inset: 0;
+    border-radius: 2vh;
+    transform: rotate(-10deg);
+    z-index: -1;
+}
+.input_box1 button{
+    position: relative;left:15vh;top: 30vh;
+    height:5vh;
+    width:40%;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 3vh;
+}
+.out h2{
+    position: relative;left: 3.5vh;top: 3vh;
+    
+    border-radius: 7px;
+    width: 33vh;
+    padding-left: 1.5vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+}
+
+.out p{
+    position: relative;left: 5vh;top: 6vh;
+    background: lightgray;
+    box-shadow:5px 20px 50px rgba(0,0,0,0.37);
+    border-radius: 7px;
+    width: 50vh;
+    height: 10vh;
+    padding-left: 1.5vh;
+    padding-top: 1vh;
+}
+
+.input_box1 button:hover{
+    background: #7d2ae8;
+    color: black;
+}
+.out .p2{
+    position: relative;top: 8vh;
+    padding: 10px;
+}
+.out .p3{
+    position: relative;top: 10vh;
+}
+.out .p4{
+    position: relative;top: 12vh;
+}

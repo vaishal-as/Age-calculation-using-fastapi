@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(bg.jpg);
+    background-size: cover;
+  background-position: center;
+}
+form{
+    position: relative;
+    background: white;
+    height: 60vh;
+    width: 45vh;
+    border-radius: 10px;
+    box-shadow:5px 20px 50px rgba(0,0,0,0.37);
+}
+form::before{
+    content: '';
+    position: absolute;
+    background: rgba(255,255,255,.3);
+    inset: 0;
+    border-radius: 2vh;
+    transform: rotate(-20deg);
+    z-index: -1;
+}
+form h1{
+    position: relative;left: 15.5vh;top: 2vh;
+    font-family: 'Crimson Pro', serif;
+}
+.input_box1{
+    position: relative;left: 7vh;bottom:12vh;top: 12vh;
+}
+.input_box2{
+    position: relative;left: 7vh;bottom:10vh;top: 14vh;
+}
+.input_box3{
+    position: relative;left: 7vh;bottom:8vh;top: 16vh;
+}
+.input_box1 input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.2s ease;
+    background:rgba(255,255,255,.3) ;
+    height: 6vh;
+    width: 70%;
+    border-color: #7d2ae8;
+}
+.input_box2 input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.2s ease;
+    background:rgba(255,255,255,.3) ;
+    height: 6vh;
+    width: 70%;
+    border-color: #7d2ae8;
+}
+.input_box3 input{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 5px;
+        outline: none;
+        transition: all 0.2s ease;
+        background:rgba(255,255,255,.3) ;
+        height: 6vh;
+        width: 70%;
+        border-color: #7d2ae8;
+}
+.input_box1 i{
+    position: relative;right: 3.5vh;
+}
+.input_box2 i{
+    position: relative;right: 3.5vh;
+}
+.input_box3 i{
+    position: relative;right: 3.5vh;
+}
+
+.login input{
+    position: relative;left:13vh;top: 22vh;
+    height:5vh;
+    width:40%;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 3vh;
+    font-family: 'Crimson Pro', serif;
+    font-size: medium;
+}
+.login input:hover{
+    background: #7d2ae8;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}

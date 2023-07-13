@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(bg.jpg);
+    background-size: cover;
+  background-position: center;
+}
+form{
+    position: relative;
+    background: white;
+    height: 60vh;
+    width: 45vh;
+    border-radius: 10px;
+    box-shadow:5px 20px 50px rgba(0,0,0,0.37);
+}
+form::before{
+    content: '';
+    position: absolute;
+    background: rgba(255,255,255,.3);
+    inset: 0;
+    border-radius: 2vh;
+    transform: rotate(-20deg);
+    z-index: -1;
+}
+form h1{
+    position: relative;left: 17vh;top: 2vh;
+    font-family: 'Crimson Pro', serif;
+   
+}
+.input_box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    position: relative;left:1vh;
+}
+.input_box2{
+    position: relative;left: 7vh;bottom:10vh;
+}
+.input_box1 input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.2s ease;
+    border-color: #7d2ae8;
+    height: 6vh;
+    width: 70%;
+}
+.input_box2 input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.2s ease;
+    border-color: #7d2ae8;
+    height: 6vh;
+    width: 70%;
+}
+.input_box1 i{
+    position: relative;right: 3vh;
+}
+.input_box2 i{
+    position: relative;right: 4vh;
+}
+
+.login input{
+    position: relative;left:13vh;bottom: 4vh;
+    height:5vh;
+    width:40%;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 3vh;
+    font-family: 'Crimson Pro', serif;
+    font-size: medium;
+}
+.login input:hover{
+    background: #7d2ae8;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+.login_signup {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+  }
+
+.login_signup a{
+    color: #7d2ae8;
+}

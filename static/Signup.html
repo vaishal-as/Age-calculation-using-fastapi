@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Signup</title>
+        <script src="/static/script1.js"></script>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+        <link rel="stylesheet" href="/static/signup.css">
+    </head>
+    <body>
+        <form action="/login" method="post">
+            <h1>Sign In</h1>
+            <div class="input_box1">
+                <input type="email" placeholder="Enter your email"  name="email" id="email" required />
+                <i class="uil uil-envelope-alt email"></i>
+              </div>
+            <div class="input_box2">
+                <input type="password" placeholder="Enter your password" name="password" id="password" required />
+              <i class="uil uil-lock password"></i>
+            </div>
+            <div class="input_box3">
+                <input type="password" placeholder="Confirm your password" name="confirm" id="confirm"  required />
+              <i class="uil uil-lock password"></i>
+            </div>
+
+            <div class="login">
+                <input type="submit" value="Signup" onclick="checkform();">
+            </div>
+        </form>
+    </body>
+</html>

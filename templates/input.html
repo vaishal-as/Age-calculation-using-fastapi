@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Age Catagarisation</title>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+        <link rel="stylesheet" href="/static/input.css">
+    </head>
+    <body>
+        <form action="/output" method="post">
+                    <div class="input_box1">
+                        <h2>Input</h2>
+                        <input class="i2" type="text" placeholder="Enter the age" id="number" name="number" required />
+                        <input class="i1" type="text" placeholder="Enter the Name Accordingly" id="name" name="name" required />
+                        <button>Submit</button>
+                    </div>
+                    <div class="out">
+                    <h2>Age Catagarisation:</h2>
+                    <p class="p1">Teen : {{result1}}</p>
+                    <p class="p2">Young Adult : {{result2}}</p>
+                    <p class="p3">Adult : {{result3}}</p>
+                    <p class="p4">Old : {{result4}}</p>
+                    </div>  
+                </from>
+              </div>
+    </body>
+</html>
